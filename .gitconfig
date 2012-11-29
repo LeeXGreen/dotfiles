@@ -1,0 +1,23 @@
+[diff]
+   color = auto
+   renames = copy
+
+[pager]
+   color = true
+
+[status]
+    color = auto
+
+[user]
+    name = "Lee Green"
+    email = "lee.x.green@gmail.com"
+
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	stat = status
+	praise = blame
+	sb = show-branch
+	what = whatchanged
+	br = branch -a --color
