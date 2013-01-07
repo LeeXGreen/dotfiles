@@ -11,5 +11,6 @@ export PROMPT_COMMAND='history -a && history -c && history -r'
 
 # colors
 alias ls="ls -G"
+alias ll="ls -l"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
