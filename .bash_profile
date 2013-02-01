@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/heroku/bin:$PATH:/Users/grele/bin:/usr/local/mysql-5.1.48-osx10.6-x86_64/bin:/Developer/usr/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/heroku/bin:$PATH:/Users/grele/bin:/usr/local/mysql-5.1.48-osx10.6-x86_64/bin:/Developer/usr/bin
 
 export EVENT_NOKQUEUE=1
 set -o vi
