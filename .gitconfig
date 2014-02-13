@@ -21,3 +21,5 @@
 	sb = show-branch
 	what = whatchanged
 	br = branch -a --color
+[push]
+	default = simple
