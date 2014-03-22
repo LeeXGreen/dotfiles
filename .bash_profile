@@ -1,6 +1,8 @@
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/heroku/bin:$PATH:/Users/grele/bin:/usr/local/mysql-5.1.48-osx10.6-x86_64/bin:/Developer/usr/bin
 
-export EVENT_NOKQUEUE=1
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
 set -o vi
 
 # globalize history and save a lot of it
@@ -13,7 +15,13 @@ export PROMPT_COMMAND='history -a && history -c && history -r'
 alias ls="ls -G"
 alias ll="ls -l"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# git aliases
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias glp="git log -p"
+alias gs="git status"
+
+alias rpsec="rspec"
 
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
