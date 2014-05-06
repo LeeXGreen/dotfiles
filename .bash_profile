@@ -22,6 +22,7 @@ alias glp="git log -p"
 alias gs="git status"
 
 alias rpsec="rspec"
+alias cd..="cd .."
 
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
