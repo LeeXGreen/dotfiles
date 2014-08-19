@@ -17,3 +17,4 @@ endif
 colorscheme solarized
 
 map <C-n> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
+let NERDTreeIgnore = ['\.pyc$']
