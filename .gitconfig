@@ -21,7 +21,8 @@
 	sb = show-branch
 	what = whatchanged
 	br = branch -a --color
-	l = log --graph --pretty=format:'%C(green)%h%C(red)%d%Creset %s %C(cyan) %an, %ar%Creset'
+  l = log --graph --pretty=format:'%C(green)%h%C(red)%d%Creset %s %C(cyan) %an, %ar%Creset'
+  difff = diff
 
 [push]
 	default = simple
