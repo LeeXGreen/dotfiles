@@ -35,6 +35,8 @@
     # typo
     difff = diff
 
+    mybranch = symbolic-ref HEAD --short
+
     # list all aliases
     la = "!git config -l | grep alias | cut -c 7-"
 
